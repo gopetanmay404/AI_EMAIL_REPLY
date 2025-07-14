@@ -1,0 +1,7 @@
+# Ignore root-level IDE files
+.idea/
+.vscode/
+*.log
+.DS_Store
+# Prevent accidental root package-lock
+/package-lock.json
