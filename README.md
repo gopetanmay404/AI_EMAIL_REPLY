@@ -55,6 +55,3 @@ Edit
 spring.application.name=email-writer-sb
 gemini.api.url=URL
 gemini.api.key=${GEMINI_KEY}
-
-<img width="1135" height="904" alt="image" src="https://github.com/user-attachments/assets/9d711153-63ee-4c31-b281-357b1a8f2fe7" />
-
