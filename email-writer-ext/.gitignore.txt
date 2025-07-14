@@ -1,0 +1,8 @@
+# Ignore build artifacts and lock file (if not needed)
+package-lock.json
+
+# Editor configs
+.vscode/
+.idea/
+.DS_Store
+*.log

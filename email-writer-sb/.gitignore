@@ -1,0 +1,42 @@
+# ===== Maven / Spring Boot =====
+target/
+HELP.md
+
+# Maven Wrapper (allow only JAR)
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ===== Secrets (Always ignore sensitive configs) =====
+.env
+application.properties
+application.yml
+*.log
+
+# ===== STS / Eclipse =====
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ===== IntelliJ IDEA =====
+.idea
+*.iws
+*.iml
+*.ipr
+
+# ===== NetBeans =====
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===== VS Code =====
+.vscode/
