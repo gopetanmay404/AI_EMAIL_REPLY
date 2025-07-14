@@ -40,3 +40,18 @@ A full-stack project that auto-generates replies to emails using AI. Built with 
 cd email-writer-ext
 npm install
 npm run dev
+
+
+
+cd email-writer-sb
+./mvnw spring-boot:run
+
+
+Make sure you set your application.properties like this:
+
+properties
+Copy
+Edit
+spring.application.name=email-writer-sb
+gemini.api.url=URL
+gemini.api.key=${GEMINI_KEY}
